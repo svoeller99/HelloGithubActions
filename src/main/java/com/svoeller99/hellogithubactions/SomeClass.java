@@ -8,6 +8,6 @@ public class SomeClass {
     }
 
     public String getName() {
-        throw new UnsupportedOperationException("not yet implemented!");
+        return "not yet implemented!";
     }
 }
