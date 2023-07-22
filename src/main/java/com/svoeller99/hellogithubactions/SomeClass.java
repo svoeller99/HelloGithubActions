@@ -1,13 +1,8 @@
 package com.svoeller99.hellogithubactions;
 
+import lombok.Value;
+
+@Value
 public class SomeClass {
-    private final String name;
-
-    public SomeClass(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
+    String name;
 }
