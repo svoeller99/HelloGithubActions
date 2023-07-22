@@ -8,6 +8,6 @@ public class SomeClass {
     }
 
     public String getName() {
-        return "not yet implemented!";
+        return name;
     }
 }
